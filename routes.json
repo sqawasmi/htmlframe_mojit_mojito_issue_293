@@ -1,0 +1,13 @@
+[{
+    "settings": [ "master" ],
+    "getting /": {
+		"verbs": ["get"],
+		"path": "/",
+		"call": "web.redirect"
+	},
+	"getting index": {
+		"verbs": ["get"],
+		"path": "/index",
+		"call": "web.index"
+	}
+}]
